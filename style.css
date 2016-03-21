@@ -1,0 +1,38 @@
+body{
+	background-color: #616161;
+	text-align: center;
+	color: white;
+}
+
+p{
+	font-size: 25px;
+}
+
+nav{
+	background-color: #FF9900;
+	height: 2.5em;
+	display: block;
+	width: 100%;
+	transition-property: top;
+	transition-duration: 500ms;
+	top: 0;
+	position: fixed;
+	font-size: 20px;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 1.5em;
+}
+nav ul li{
+	float: left;
+	padding: 0 2em;
+}
+nav ul li:hover{
+	background-color: #FF6600;
+}
+nav ul a li{
+	color: white;
+	line-height: 2.5em;
+	text-decoration: none;
+}
